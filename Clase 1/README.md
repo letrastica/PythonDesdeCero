@@ -12,3 +12,5 @@ Para ejecutarlo hay que invocar el programa ejecutable de Python, en **VS Code**
 
 Felicidades acabas de ejecutar tu primer script de python 
 
+##  [Variables, Tipos de Datos y Operadores](Variables%2C%20Tipos%20de%20Datos%20y%20Operadores.md)
+##  [Listas, Diccionarios y Tuplas](/Clase%201/Listas,%20Diccionarios%20y%20Tuplas.md)
