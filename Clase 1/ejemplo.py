@@ -43,13 +43,44 @@
 # print(listaUno[-1])
 # print(f'La longitud de la listaUno es de {len(listaUno)}')
 
-listaUno = ["A","B","C","D","E","X","Y","Z", 12, 3.5, True, [1,2,3,4]]
-print(listaUno)
+# listaUno = ["A","B","C","D","E","X","Y","Z", 12, 3.5, True, [1,2,3,4]]
+# print(listaUno)
 
-listaUno.pop(-2)
-print(listaUno)
+# listaUno.pop(-2)
+# print(listaUno)
+
+# tuplaUno = (120, 1500)
 
 
+font = {
+    'name': 'Cemita',
+    'masters': 2,
+    'glifos' : { 
+            'A' : {
+                'nodes':[(120,189), (120,300),(120,890)],
+                'LSB' : 100,
+                'RSB' : 100,
+                'width': 560
+                },
+            'B' : {
+                'nodes':[(120,189), (120,300),(120,890)],
+                'LSB' : 148,
+                'RSB' : 156,
+                'width': 660
+                } 
+    },
+    'metrics': [123, 564, 900],
+    'autor' : "Miguel"
+    }
+
+print(font['glifos']['B']['nodes'][-1])
+font['glifos']['C'] = {
+                'nodes':[(120,189), (120,300),(120,890)],
+                'LSB' : 148,
+                'RSB' : 156,
+                'width': 660
+                } 
+print(font['glifos'])
 
 
 
