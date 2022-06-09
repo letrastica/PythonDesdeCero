@@ -69,8 +69,7 @@ font = {
                 'width': 660
                 } 
     },
-    'metrics': [123, 564, 900],
-    'autor' : "Miguel"
+
     }
 
 print(font['glifos']['B']['nodes'][-1])
